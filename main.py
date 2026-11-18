@@ -63,7 +63,7 @@ class Aplicacao:
                 st.warning("Informe um nome válido.")
 
         st.subheader("Lista de itens")
-        self.lista.exibir()
+        st.dataframe(self.lista.exibir())
 
         st.divider()
 
